@@ -28,8 +28,19 @@ path_1=[n[3][0],n[3][1], n[3][2], n[2][2]]
 for node in path_1:
     print(node.name)
 
+def direction(node_A, node_B):
+    name_A = node_A.name  # current node
+    name_B = node_B.name  # next node
+    if name_A[1] > name_B[1]:
+        return node_B.west
+    elif name_A[1] < name_B[1]:
+        return node_B.east
+    elif name_A > name_B:
+        return node_B.north
+    else:
+        return node_B.south
 
 def verify(A, B):
-    # use the .name method to figure out relation between nodes
-    # i.e 30 -> 31 is going right
+    if direction(node_A, node_B) == i:
+        return
     return
