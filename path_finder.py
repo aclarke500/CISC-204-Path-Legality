@@ -1,3 +1,6 @@
+# To do: implement time functionality, red lights, make boolean logic more apparent.
+# Stretch goals: implement speed, speed limits, traffic.
+
 from node import Node
 
 o = "out"
