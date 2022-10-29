@@ -32,8 +32,8 @@ for node in path_1:
     print(node.name)
 
 def direction(node_A, node_B):
-    name_A = node_A.name  # current node
-    name_B = node_B.name  # next node
+    name_A = node_A.name  
+    name_B = node_B.name  
     if name_A[1] > name_B[1]:
         return node_B.west
     elif name_A[1] < name_B[1]:
@@ -43,7 +43,9 @@ def direction(node_A, node_B):
     else:
         return node_B.south
 
-def verify(A, B):
-    if direction(node_A, node_B) == i:
-        return
-    return
+def verify(A, B, C):
+    if direction(A, B) == i:
+        if direction(B, C) == o: # Could be better represented with boolean logic.
+            return True
+        return False
+    return False
