@@ -1,4 +1,4 @@
-# To do: implement time functionality, red lights, make boolean logic more apparent.
+# To do: implement time functionality, red lights, make boolean logic more apparent, add graphical component.
 # Stretch goals: implement speed, speed limits, traffic.
 
 from node import Node
