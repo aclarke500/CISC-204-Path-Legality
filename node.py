@@ -1,6 +1,8 @@
 class Node:
 
     #Class attributes
+    
+    #To be implemented: light status (red/green)
 
     '''
     args are name + clockwise
