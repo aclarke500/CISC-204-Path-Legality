@@ -20,6 +20,9 @@ class Node:
         self.west = west
         self.name = name
         self.is_obstacle = False
+        
+        # the status of the light would go here
+        # it would be checked in the main code, and if it is red it would alter the status of the directions one may exit the node in.
 
     def is_obstacle(self):
         self.north = False
