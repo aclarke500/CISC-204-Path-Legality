@@ -45,7 +45,11 @@ def direction(node_A, node_B):
         return node_B.south
 
 def verify(A, B):
+    # here the nodes would be checked for red lights
     # This whole process will be better revised in the final version.
     if direction(A, B) == i
         return True
     return False
+
+# among other things, a function will go here that will update the status of the traffic lights using elapsed time.
+# intersections will have different delays between light chages, creating a more dynamic drive.
