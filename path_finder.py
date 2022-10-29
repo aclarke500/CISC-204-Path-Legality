@@ -43,9 +43,8 @@ def direction(node_A, node_B):
     else:
         return node_B.south
 
-def verify(A, B, C):
-    if direction(A, B) == i:
-        if direction(B, C) == o: # Could be better represented with boolean logic.
-            return True
-        return False
+def verify(A, B):
+    # This whole process will be better revised in the final version.
+    if direction(A, B) == i
+        return True
     return False
