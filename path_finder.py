@@ -2,6 +2,7 @@
 # Stretch goals: implement speed, speed limits, traffic.
 
 from node import Node
+import time
 
 o = "out"
 i = "in"
